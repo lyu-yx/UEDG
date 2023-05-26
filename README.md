@@ -1,5 +1,6 @@
 #  UEDG:Uncertainty-Edge Dual Guided Camouflage Object Detection
 
+Full version of Code will release once this paper accepted.
 ## 1. Features
 
 <p align="center">
@@ -44,4 +45,4 @@ Mutual Fusion (UEMF), Uncertainty Deduce Module (UDM), Edge Estimate Module (EEM
 </p>
 
 ## 4. Thanks
-Code copied a lot from  [thograce/BGNet](https://github.com/thograce/BGNet.git), [HUuxiaobin/HitNet](https://github.com/HUuxiaobin/HitNet.git), [GewelsJI/DGNet](https://github.com/GewelsJI/DGNet.git), [clelouch/BgNet](https://github.com/clelouch/BgNet.git), [fanyang587/UGTR](https://github.com/fanyang587/UGTR.git), [whai362/PVT](https://github.com/whai362/PVT.git). Thanks for their great work!
+Code copied a lot from  [thograce/BGNet](https://github.com/thograce/BGNet.git), [HUuxiaobin/HitNet](https://github.com/HUuxiaobin/HitNet.git), [GewelsJI/DGNet](https://github.com/GewelsJI/DGNet.git), [clelouch/BgNet](https://github.com/clelouch/BgNet.git), [fanyang587/UGTR](https://github.com/fanyang587/UGTR.git), [whai362/PVT](https://github.com/whai362/PVT.git). Thanks for their great works!
