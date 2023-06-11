@@ -1,6 +1,6 @@
 #  UEDG:Uncertainty-Edge Dual Guided Camouflage Object Detection
 
-Full version of Code will release once this paper accepted.
+Full version of Code will release once this paper accepted. While the testing results has been released.
 ## 1. Features
 
 <p align="center">
