@@ -48,13 +48,15 @@ Mutual Fusion (UEMF), Uncertainty Deduce Module (UDM), Edge Estimate Module (EEM
 
 ## 4. Usage
 ### 4.1. Requirements
-    conda create --name UEDG --file requirements.txt
+    conda create -n UEDG python=3.8
     conda activate UEDG
+    pip install -r ./requirements.txt
+    
 ### 4.2 Data Preparation
 + downloading testing dataset and move it into `./dataset/TestDataset/`, which can be found in [GoogleDrive](https://drive.google.com/file/d/1DEbplYxjyu_w-NDqvKfXO3i9Ug5X4TuQ/view?usp=sharing).
 + downloading training dataset and move it into `./dataset/TrainDataset/`, which can be found in [GoogleDrive](https://drive.google.com/file/d/1RL5--50oRsDG79d6hNr3yoDU5irfjd_e/view?usp=sharing).
 + downloading pretrained weights `Net_epoch_best.pth` and move it into `./log/Mytrain/`, which can be found in [GoogleDrive](https://drive.google.com/file/d/1PD2mexy-IwnyWsb7WF59V1VAF24UKOcu/view?usp=sharing).
-+ preparing the pvt weights on ImageNet (refer to [here](https://github.com/GewelsJI/DGNet/blob/00e4d2b54667eb71f734f60d46fffe47fbf2725e/lib/utils.py#L556)).
++ preparing the pvt weights on PVT(Pyrimid Vision Transformer) refer to [GoogleDrive](https://drive.google.com/file/d/1txdBmzFbob19z8jb-VN5cuCGidohD7_L/view?usp=sharing).
 
 ### 4.2. Training
     python MyTrain.py
