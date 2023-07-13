@@ -1,7 +1,7 @@
 #  UEDG:Uncertainty-Edge Dual Guided Camouflage Object Detection
 
-Title: Uncertainty-Edge Dual Guided Camouflage Object Detection
-Paper link: Early access will be avilable soon.
+__Title:__ Uncertainty-Edge Dual Guided Camouflage Object Detection  
+__Paper link and cite:__ Early access will be avilable soon.
 
 
 ## 1. News
