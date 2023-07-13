@@ -7,6 +7,6 @@ scipy
 six
 tensorboardX
 timm
-torch==1.12.1
-torchvision==0.13.1
 tqdm
+imageio
+scikit-image

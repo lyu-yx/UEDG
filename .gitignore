@@ -1,3 +1,7 @@
 # MyTest.py
 # MyTrain_best_iterative_pvt_antiartifact_laplace.py
 # models/*
+
+dataset/*
+log/*
+pre_train/*

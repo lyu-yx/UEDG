@@ -59,7 +59,7 @@ for cur_net, cur_model in zip(net_list, model_list):
     os.environ["CUDA_VISIBLE_DEVICES"] = "0"
     cudnn.benchmark = True
 
-    model = cur_module.UEDGNet(channel=64, arc='B4', M=[8, 8, 8], N=[4, 8, 16])
+    model = cur_module.UEDGNet(channel=64, M=[8, 8, 8], N=[4, 8, 16])
     model.load_state_dict(torch.load(cur_ckp))
     model.eval()
     model.cuda() #change

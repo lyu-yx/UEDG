@@ -212,12 +212,12 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--epoch', type=int, default=200, help='epoch number')
     parser.add_argument('--lr', type=float, default=1e-4, help='learning rate')
-    parser.add_argument('--batchsize', type=int, default=16, help='training batch size')
+    parser.add_argument('--batchsize', type=int, default=1, help='training batch size') # 16
     parser.add_argument('--trainsize', type=int, default=352, help='training dataset size')
     parser.add_argument('--clip', type=float, default=0.5, help='gradient clipping margin')
     parser.add_argument('--decay_rate', type=float, default=0.1, help='decay rate of learning rate')
     parser.add_argument('--decay_epoch', type=int, default=50, help='every n epochs decay learning rate')
-    parser.add_argument('--model', type=str, default='BUDGNet', help='main model')
+    parser.add_argument('--model', type=str, default='UEDGNet', help='main model')
     parser.add_argument('--load', type=str, default=None, help='train from checkpoints')
     parser.add_argument('--train_root', type=str, default='./dataset/TrainDataset/',
                         help='the training rgb images root')
