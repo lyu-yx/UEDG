@@ -1,8 +1,17 @@
 #  UEDG:Uncertainty-Edge Dual Guided Camouflage Object Detection
 
-Full version of Code will release once this paper accepted. While the testing results has been released.
-## 1. Features
+Title: Uncertainty-Edge Dual Guided Camouflage Object Detection
+Paper link: Early access will be avilable soon.
 
+
+## 1. News
+[2023-07-11] Code，checkpoint and corresponding data is uploaded with user guide.   
+[2023-07-03] Paper has been accepted by IEEE Transaction on Multimedia. :partying_face: Congradulations!!! :partying_face:  
+[2023-05-27] Detection results on four dataset: CHAMELEON, CAMO, COD10K-test, and NC4K are avilible: [Google Drive](https://drive.google.com/drive/folders/1FVmgbhKsKE6eG8wb1gMcgq1nQMgJBqOB?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1tUQ41eoah9vMCPDg_Ytg7Q)(9cu6).  
+[2023-05-26] Initial repository.  
+[2022-11-22] Manuscript uploaded.
+
+## 2. Features
 <p align="center">
     <img src="assest/features.png"/> <br/>
     <em> 
@@ -16,14 +25,6 @@ Full version of Code will release once this paper accepted. While the testing re
 Mutual Fusion (UEMF), Uncertainty Deduce Module (UDM), Edge Estimate Module (EEM), and  Uncertainty/Edge Guide Grouping (UGG/EGG) module with in a powerful end-to-end formation.
 
 - **SOTA results.** Our proposed method achieve the SOTA performance under four metrics in CHAMELEON, CAMO, COD10K, and NC4K. We also achieve the best performance in medical application like polyb segmentation as well.
-
-
-## 2. News
-[2023-07-03] Paper has been accepted by IEEE Transaction on Multimedia. :partying_face: Congradulations!!! :partying_face:  
-[2023-05-27] Detection results on four dataset: CHAMELEON, CAMO, COD10K-test, and NC4K are avilible: [Google Drive](https://drive.google.com/drive/folders/1FVmgbhKsKE6eG8wb1gMcgq1nQMgJBqOB?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1tUQ41eoah9vMCPDg_Ytg7Q)(9cu6).  
-[2023-05-26] Initial repository.  
-[2022-11-22] Manuscript uploaded.
-
 
 ## 3. Overview
 <p align="center">
@@ -45,5 +46,23 @@ Mutual Fusion (UEMF), Uncertainty Deduce Module (UDM), Edge Estimate Module (EEM
 
 </p>
 
-## 4. Thanks
-Code copied a lot from  [thograce/BGNet](https://github.com/thograce/BGNet.git), [HUuxiaobin/HitNet](https://github.com/HUuxiaobin/HitNet.git), [GewelsJI/DGNet](https://github.com/GewelsJI/DGNet.git), [clelouch/BgNet](https://github.com/clelouch/BgNet.git), [fanyang587/UGTR](https://github.com/fanyang587/UGTR.git), [whai362/PVT](https://github.com/whai362/PVT.git). Thanks for their great works!
+## 4. Usage
+### 4.1. Requirements
+    conda create --name UEDG --file requirements.txt
+    conda activate UEDG
+### 4.2 Data Preparation
++ downloading testing dataset and move it into `./dataset/TestDataset/`, which can be found in [GoogleDrive](https://drive.google.com/file/d/1DEbplYxjyu_w-NDqvKfXO3i9Ug5X4TuQ/view?usp=sharing).
++ downloading training dataset and move it into `./dataset/TrainDataset/`, which can be found in [GoogleDrive](https://drive.google.com/file/d/1RL5--50oRsDG79d6hNr3yoDU5irfjd_e/view?usp=sharing).
++ downloading pretrained weights `Net_epoch_best.pth` and move it into `./log/Mytrain/`, which can be found in [GoogleDrive](https://drive.google.com/file/d/1PD2mexy-IwnyWsb7WF59V1VAF24UKOcu/view?usp=sharing).
++ preparing the pvt weights on ImageNet (refer to [here](https://github.com/GewelsJI/DGNet/blob/00e4d2b54667eb71f734f60d46fffe47fbf2725e/lib/utils.py#L556)).
+
+### 4.2. Training
+    python MyTrain.py
+### 4.3. Testing
+    python MyTest.py
+
+## 5. Thanks
+Code copied a lot from [HVision-NKU/CamoFormer](https://github.com/HVision-NKU/CamoFormer), [thograce/BGNet](https://github.com/thograce/BGNet.git), [weijun88/F3Net](https://github.com/weijun88/F3Net), [HUuxiaobin/HitNet](https://github.com/HUuxiaobin/HitNet.git), [GewelsJI/DGNet](https://github.com/GewelsJI/DGNet.git), [clelouch/BgNet](https://github.com/clelouch/BgNet.git), [fanyang587/UGTR](https://github.com/fanyang587/UGTR.git), [whai362/PVT](https://github.com/whai362/PVT.git). Thanks for their great works!
+
+## 6. License
+The source code is free for research and education use only. Any commercial usage should get formal permission first.
