@@ -1,7 +1,7 @@
 #  UEDG:Uncertainty-Edge Dual Guided Camouflage Object Detection
 
 __Title:__ Uncertainty-Edge Dual Guided Camouflage Object Detection  
-__Paper link and cite:__ Early access will be avilable soon.
+__Paper link:__ Early access version avalible [here](https://ieeexplore.ieee.org/document/10183371).
 
 
 ## 1. News
@@ -72,3 +72,11 @@ Code copied a lot from [HVision-NKU/CamoFormer](https://github.com/HVision-NKU/C
 
 ## 6. License
 The source code is free for research and education use only. Any commercial usage should get formal permission first.
+
+## 7.Citation
+    @ARTICLE{10183371,
+    author={Lyu, Yixuan and Zhang, Hong and Li, Yan and Liu, Hanyang and Yang, Yifan and Yuan, Ding},
+    journal={IEEE Transactions on Multimedia}, 
+    title={UEDG:Uncertainty-Edge Dual Guided Camouflage Object Detection}, 
+    year={2023},
+    doi={10.1109/TMM.2023.3295095}}
