@@ -7,7 +7,7 @@ __Paper link:__ Early access version avalible [here](https://ieeexplore.ieee.org
 ## 1. News
 [2023-07-11] Code and corresponding data is uploaded with user guide.   
 [2023-07-03] Paper has been accepted by IEEE Transaction on Multimedia. :partying_face: Congradulations!!! :partying_face:  
-[2023-05-27] Detection results on four dataset: CHAMELEON, CAMO, COD10K-test, and NC4K are avilible: [Google Drive](https://drive.google.com/drive/folders/1FVmgbhKsKE6eG8wb1gMcgq1nQMgJBqOB?usp=sharing) or [Baidu Netdisk](https://pan.baidu.com/s/1tUQ41eoah9vMCPDg_Ytg7Q)(9cu6).  
+[2023-05-27] Detection results on four dataset: CHAMELEON, CAMO, COD10K-test, and NC4K are avilible: [Drive](https://bhpan.buaa.edu.cn/link/AA57817C2D29C54E1384AD71AE2F9487DF) or [Baidu Netdisk](https://pan.baidu.com/s/1tUQ41eoah9vMCPDg_Ytg7Q)(9cu6).  
 [2023-05-26] Initial repository.  
 [2022-11-22] Manuscript uploaded.
 
@@ -57,10 +57,11 @@ For cuda11.6:
     conda install pytorch==1.12.1 torchvision==0.13.1 torchaudio==0.12.1 cudatoolkit=11.6 -c pytorch -c conda-forge
     
 ### 4.2 Data Preparation
-+ downloading testing dataset and move it into `./dataset/TestDataset/`, which can be found in [GoogleDrive](https://drive.google.com/file/d/1DEbplYxjyu_w-NDqvKfXO3i9Ug5X4TuQ/view?usp=sharing).
-+ downloading training dataset and move it into `./dataset/TrainDataset/`, which can be found in [GoogleDrive](https://drive.google.com/file/d/1RL5--50oRsDG79d6hNr3yoDU5irfjd_e/view?usp=sharing).
++ downloading testing dataset and move it into `./dataset/TestDataset/`, which can be found in [Drive](https://bhpan.buaa.edu.cn/link/AA57817C2D29C54E1384AD71AE2F9487DF).
++ downloading training dataset and move it into `./dataset/TrainDataset/`, which can be found in [Drive](https://bhpan.buaa.edu.cn/link/AA57817C2D29C54E1384AD71AE2F9487DF).
 <!-- + downloading pretrained weights `Net_epoch_best.pth` and move it into `./log/Mytrain/`, which can be found in [GoogleDrive](https://drive.google.com/file/d/1PD2mexy-IwnyWsb7WF59V1VAF24UKOcu/view?usp=sharing). -->
-+ preparing the pvt weights on PVT(Pyrimid Vision Transformer) refer to [GoogleDrive](https://drive.google.com/file/d/1txdBmzFbob19z8jb-VN5cuCGidohD7_L/view?usp=sharing) and move it into `./pre_trained/`.
++ preparing the pvt weights on PVT(Pyrimid Vision Transformer) refer to [Drive](https://bhpan.buaa.edu.cn/link/AA57817C2D29C54E1384AD71AE2F9487DF) and move it into `./pre_trained/`.
+
 
 ### 4.2. Training
     python MyTrain.py
