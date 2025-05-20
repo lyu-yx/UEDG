@@ -5,7 +5,7 @@ __Paper link:__ Early access version avalible [here](https://ieeexplore.ieee.org
 
 
 ## 1. News
-[2025-05-20] UEDG is recognized as HIGHLY CITED PAPERS by ESI. :partying_face:
+[2025-05-20] UEDG is recognized as HIGHLY CITED PAPERS by ESI. :partying_face:  
 [2023-07-11] Code and corresponding data is uploaded with user guide.   
 [2023-07-03] Paper has been accepted by IEEE Transaction on Multimedia. :partying_face: Congradulations!!! :partying_face:  
 [2023-05-27] Detection results on four dataset: CHAMELEON, CAMO, COD10K-test, and NC4K are avilible: [Drive](https://bhpan.buaa.edu.cn/link/AA57817C2D29C54E1384AD71AE2F9487DF) or [Baidu Netdisk](https://pan.baidu.com/s/1tUQ41eoah9vMCPDg_Ytg7Q)(9cu6).  
